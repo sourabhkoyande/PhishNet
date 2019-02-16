@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/contact_form_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="15dp"
+        android:text="Contact Us"
+        android:textColor="#656565"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/inp_rou_alt"
+        android:gravity="center"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:textColorHint="#656565" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Id"
+        android:gravity="center"
+        android:background="@drawable/inp_rou_alt"
+        android:padding="12dp"
+        android:textColorHint="#656565"
+        android:layout_marginTop="20dp"
+        android:id="@+id/email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subject"
+        android:gravity="center"
+        android:background="@drawable/inp_rou_alt"
+        android:padding="12dp"
+        android:textColorHint="#656565"
+        android:layout_marginTop="20dp"
+        android:id="@+id/subject"
+        android:inputType="textEmailSubject" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="Your Message"
+        android:gravity="center"
+        android:background="@drawable/inp_rou_alt"
+        android:padding="12dp"
+        android:textColorHint="#656565"
+        android:layout_marginTop="20dp"
+        android:id="@+id/message"
+        android:inputType="textMultiLine"
+        android:singleLine="false" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/contactus_btn"
+        android:hint="Submit"
+        android:padding="6dp"
+        android:textColorHint="#fff"
+        android:textSize="16dp" />
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "755465021731",
+    "firebase_url": "https://phishnet-1403.firebaseio.com",
+    "project_id": "phishnet-1403",
+    "storage_bucket": "phishnet-1403.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755465021731:android:7beb03ce044fd9cd",
+        "android_client_info": {
+          "package_name": "com.example.sourabhpc.phishnet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755465021731-jn608a4v5gd3nhuqrkiirphr5jnblpp5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sourabhpc.phishnet",
+            "certificate_hash": "d4bf28ddafff81916df6e9c9a3deebbcb304ec64"
+          }
+        },
+        {
+          "client_id": "755465021731-vobtll3sh3j8ls8bqv8p4ehsblklebkq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPigdm99l3VSgDRwSv3GZa516b8_Nt7KE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755465021731-vobtll3sh3j8ls8bqv8p4ehsblklebkq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
